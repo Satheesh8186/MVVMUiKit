@@ -24,6 +24,7 @@
 		8001C11D2A361A06007198A2 /* ProductTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8001C11B2A361A06007198A2 /* ProductTVCell.xib */; };
 		8001C1202A362C81007198A2 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 8001C11F2A362C81007198A2 /* Kingfisher */; };
 		8001C1222A366514007198A2 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8001C1212A366514007198A2 /* UIImageView+Extension.swift */; };
+		8001C1252A3670CB007198A2 /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8001C1242A3670CB007198A2 /* EndPointType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		8001C11A2A361A06007198A2 /* ProductTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTVCell.swift; sourceTree = "<group>"; };
 		8001C11B2A361A06007198A2 /* ProductTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductTVCell.xib; sourceTree = "<group>"; };
 		8001C1212A366514007198A2 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		8001C1242A3670CB007198A2 /* EndPointType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				8001C1092A35638A007198A2 /* Helper */,
 				8001C10B2A3563B9007198A2 /* Screens */,
 				8001C10A2A35639A007198A2 /* Storyboard */,
+				8001C1232A367086007198A2 /* Utility */,
 				8001C0DF2A355F72007198A2 /* Assets.xcassets */,
 				8001C0E42A355F72007198A2 /* Info.plist */,
 			);
@@ -228,6 +231,14 @@
 				8001C1102A35661D007198A2 /* ProductModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		8001C1232A367086007198A2 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				8001C1242A3670CB007198A2 /* EndPointType.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -376,6 +387,7 @@
 				8001C1152A357BB0007198A2 /* constant.swift in Sources */,
 				8001C1192A361026007198A2 /* ProductVM.swift in Sources */,
 				8001C1112A35661D007198A2 /* ProductModel.swift in Sources */,
+				8001C1252A3670CB007198A2 /* EndPointType.swift in Sources */,
 				8001C0D92A355F71007198A2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
