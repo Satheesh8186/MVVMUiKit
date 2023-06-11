@@ -15,9 +15,28 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="HHu-vk-skP">
+                                <rect key="frame" x="8" y="67" width="377" height="743"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="rGr-8M-Z1S"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="he2-At-rk3"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HHu-vk-skP" secondAttribute="trailing" constant="8" id="F3u-rd-GpM"/>
+                            <constraint firstItem="HHu-vk-skP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="SIw-eG-HKJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="HHu-vk-skP" secondAttribute="bottom" constant="8" id="Vt7-F6-lgb"/>
+                            <constraint firstItem="HHu-vk-skP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="nRF-jO-OX5"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="produtTblView" destination="HHu-vk-skP" id="fx4-1w-mx0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
